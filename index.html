@@ -5,6 +5,9 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+  <h1>css</h1>
+
   <p>CSS o Cascade Style Sheet es la forma en que podemos darle formato a un HTML.</p>
 
   <p>Hay 3 formas de escribir codigo CSS</p>
@@ -34,12 +37,12 @@
 
     <li>Selector por etiqueta</li>
     <p>Funciona escribiendo la etiqueta de html a la cual le queremos hacer magia con css.</p>
-    <etiqueta>Selector por etiqueta</etiqueta>
+    <etiqueta>Ejemplo de selector por etiqueta</etiqueta>
     <br><br>
 
     <li>Selector por id</li>
     <p>Este funciona dandole un id al elemento que lo necesitemos, pero es considerado una mala práctica ya que los id se suelen guardar para js, ademas de que los id son únicos así que solo afectaría 1 solo elemento.</p>
-    <p id="unico">ejemplo de elemento por id</p>
+    <p id="unico">Ejemplo de selector por id</p>
 
     <li>Selector por clase</li>
     <p>Esta es la forma más utilizada para poner css ya que puede afectar 1 o varios elementos, ademas de que cada elemento html puede contener varias clases, solo separandolas por un espacio entre ellas.</p>
@@ -66,7 +69,33 @@
 
     <li>hsl</li>
     <p class="colorhsl">HSL significa: Hue Saturation Lightness y esta basado en una rueda de color, la saturación y el brillo que podemos darle a un color, midiendose como HSL(0 a 360, 0% a 100%, 0% a 100%) siendo un 0,100,50 un rojo brillante o 240, 100, 50 un azul muy intenso.</p>
-
   </ul>
+
+  <h3>Bordes</h3>
+
+  <p>Para trabajar mejor podemos ponerle un borde a nuestro elemento para identificarlo con más facilidad, como los hemos estado utilizando hasta ahora en los ejemplos. La propiedad se llama "border".</p>
+
+  <ul>
+    <li class="borde1">ejemplo de borde solid</li>
+    <li class="borde2">ejemplo de borde dashed</li>
+    <li class="borde3">ejemplo de borde dotted</li>
+    <li class="borde4">ejemplo de borde doublue</li>
+    <li class="borde5">ejemplo de borde groove</li>
+  </ul>
+
+  <h3>Unidades de medida</h3>
+
+  <p>En css y en general se utilizan unidades de medida en pixeles ya que es la unidad mínima que se puede utilizar en una computadora y en la web. Algunas son:</p>
+  <ul>
+    <li>pixel o px</li>
+    <li>centimetros o cm</li>
+    <li>pulgadas o in</li>
+    <li>milimetros o mm</li>
+    <li>puntos o pt</li>
+    <li>picas o pc</li>
+    <li>em o tamaño relativo actual del padre directo</li>
+    <li>rem o tamaño relativo actual del elemento relativo que sería html</li>
+  </ul>
+
 </body>
 </html>

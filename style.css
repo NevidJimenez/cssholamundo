@@ -8,8 +8,8 @@ etiqueta {
 }
 
 #unico {
-  background-color: palevioletred;
-  color: teal;
+  background-color: darkblue;
+  color: gold;
 }
 
 .ejemploclase {
@@ -17,7 +17,7 @@ etiqueta {
 }
 
 .otroejemploclase {
-  background-color: aqua;
+  background-color: blueviolet;
 }
 
 .ejemploclase.otroejemploclase {
@@ -40,5 +40,25 @@ etiqueta {
 }
 
 .colorhsl {
-  color: hsl(240, 100%, 50%);
+  color: hsl(241, 100%, 58%);
+}
+
+.borde1 {
+  border: 2px red solid;
+}
+
+.borde2 {
+  border: 2px green dashed;
+}
+
+.borde3 {
+  border: 2px blue dotted;
+}
+
+.borde4 {
+  border: 2px yellow double;
+}
+
+.borde5 {
+  border: 2px orangered groove;
 }
