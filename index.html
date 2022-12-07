@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Aprendiendo CSS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <p>CSS o Cascade Style Sheet es la forma en que podemos darle formato a un HTML.</p>
+
+  <p>Hay 3 formas de escribir codigo CSS</p>
+  <p>La primera es directamente en la etiqueta html mediante el atributo "style"</p>
+
+  <p style="border: solid purple 2px;">Soy la etiqueta html con codigo css directamente.</p>
+
+  <p>La segunda es mediante la etiqueta style por fuera, esta se puede invocar en cualquier parte del html</p>
+
+  <p class="etiqueta-por-fuera">Soy el ejemplo de la etiqueta por fuera.</p>
+  <style>
+    .etiqueta-por-fuera{
+      border: solid yellow 2px;
+    }
+  </style>
+
+  <p>La tercera es la "correcta" ya que es una buena practica escribir codigo css en un archivo aparte del html y aparte del javascript.
+  En la parde de < head > se pone la etiqueta < link > y con la propiedad "href" se enlaza el archivo style.css a tu archivo index.html
+  La etiqueta "rel" significa "relation" y es que tipo de dato vamos a recibir, en este caso se coloca "stylesheet" ya que recibiremos hojas de estilo en cascada o css.
+  </p>
+
+  <h3>Selectores</h3>
+
+  <p>La forma en la que invocamos los poderes de CSS en HTML es mediante los SELECTORES y hay 4 tipos de ellos:</p>
+
+  <ul>
+
+    <li>Selector por etiqueta</li>
+    <p>Funciona escribiendo la etiqueta de html a la cual le queremos hacer magia con css.</p>
+    <etiqueta>Selector por etiqueta</etiqueta>
+    <br><br>
+
+    <li>Selector por id</li>
+    <p>Este funciona dandole un id al elemento que lo necesitemos, pero es considerado una mala práctica ya que los id se suelen guardar para js, ademas de que los id son únicos así que solo afectaría 1 solo elemento.</p>
+    <p id="unico">ejemplo de elemento por id</p>
+
+    <li>Selector por clase</li>
+    <p>Esta es la forma más utilizada para poner css ya que puede afectar 1 o varios elementos, ademas de que cada elemento html puede contener varias clases, solo separandolas por un espacio entre ellas.</p>
+    <ul>
+      <li class="ejemploclase">ejemplo de clase 1</li>
+      <li class="otroejemploclase">ejemplo de clase 2</li>
+      <li class="ejemploclase otroejemploclase">ejemplo de clase 3</li>
+    </ul>
+    <br>
+
+    <li>Selector universal</li>
+    <p>Se utiliza el asterisco * para el selector universal, aunque viene con un pequeño truco, éste solo afectará a los elementos que no hayan sido modificados por otro selector.</p>
+  </ul>
+
+  <h3>Formas de elegir el color</h3>
+  <p>Existen 3 tipos de formas en las que podemos elegir los colores para css</p>
+
+  <ul>
+    <li>hexadecimal</li>
+    <p class="colorhexadecimal">Después de la propiedad "color" ponemos el simbolo de # seguido de 3 o 6 caracteres que van desde el 0 a la f, siendo la f el valor máximo. Si solo utilizamos 3 caracteres css entendera que el segundo, el cuarto, y el sexto número será el mismo que su predecesor, por ejemplo, si ponemos #abc, se entenderá que quisiste decir #aabbcc, pero en su forma reducida.</p>
+
+    <li>rgb</li>
+    <p class="colorrgb">Para esta forma colocamos "rgb()" y estos valores van desde 0 hasta 255, y significan: red, green, blue.</p>
+
+    <li>hsl</li>
+    <p class="colorhsl">HSL significa: Hue Saturation Lightness y esta basado en una rueda de color, la saturación y el brillo que podemos darle a un color, midiendose como HSL(0 a 360, 0% a 100%, 0% a 100%) siendo un 0,100,50 un rojo brillante o 240, 100, 50 un azul muy intenso.</p>
+
+  </ul>
+</body>
+</html>

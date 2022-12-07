@@ -1,0 +1,44 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+etiqueta {
+  border: solid green 2px;
+}
+
+#unico {
+  background-color: palevioletred;
+  color: teal;
+}
+
+.ejemploclase {
+  border: solid red 2px;
+}
+
+.otroejemploclase {
+  background-color: aqua;
+}
+
+.ejemploclase.otroejemploclase {
+  border: dotted purple 2px;
+  background-color: white;
+  color: black;
+}
+
+* {
+  background-color: black;
+  color: white;
+}
+
+.colorhexadecimal {
+  color: #f00;
+}
+
+.colorrgb {
+  color: rgb(0, 255, 0);
+}
+
+.colorhsl {
+  color: hsl(240, 100%, 50%);
+}
