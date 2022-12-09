@@ -62,3 +62,21 @@ etiqueta {
 .borde5 {
   border: 2px orangered groove;
 }
+
+.fondo {
+  height: 200px;
+  background: red url(./img/pikachu.png) repeat-y center bottom / 100px 100px;
+}
+
+.cajamodelo {
+  background-color: chocolate;
+  outline: blue solid 5px;
+  margin: 50px;
+  padding: 15px;
+  height: 100px;
+  width: 100px;
+}
+
+.texto {
+  text
+}
