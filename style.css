@@ -26,10 +26,10 @@ etiqueta {
   color: black;
 }
 
-* {
+/* * {
   background-color: black;
   color: white;
-}
+} */
 
 .colorhexadecimal {
   color: #f00;
@@ -78,5 +78,59 @@ etiqueta {
 }
 
 .texto {
-  text
+  text-align: center;
+  text-decoration: line-through;
+  text-transform: uppercase;
+  font-size: larger;
+  font-weight: 900;
+  font-style: italic;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*En este caso el orden es importante por la cascada*/
+a:link {
+  color: green;
+}
+
+a:visited {
+  color: yellow;
+}
+
+a:hover {
+  color: orange;
+}
+
+a:active {
+  color: red;
+}
+
+.listas {
+  list-style-type: georgian;
+  width: 50px;
+  list-style-position: inside;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #f00;
+}
+
+th, td {
+  border: solid 2px #eee;
+  padding: 5px;
+}
+
+th {
+  background-color: orangered;
+  color: white;
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: whitesmoke;
+}
+
+tr:hover {
+  background-color: aqua;
 }
